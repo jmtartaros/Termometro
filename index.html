@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Termometro</title>
+    <link rel="stylesheet" href="../termometro/css/styles.css">
+</head>
+<body>
+    <h1>Termometro</h1>
+    <div class="container">
+        <img src="../termometro/img/termo.png" alt="termometro" class="term">
+        <form class="termo">
+            <label for="temperatura">Ingrese la Temperatura</label>
+            <input type="text" id="temperatura">
+            <label for="grados">Ingrese la escala en °C,°F o °K </label>
+            <input type="text" id="grados">
+            <button type="button" class="boton" id="boton">Enviar</button>
+            <p class="mostrar" id="mostrar" onclick="calcularEscala()">//Resultado</p>
+        </form>
+    </div> 
+</body>
+<script src="../termometro/js/index.js"></script>
+</html>
